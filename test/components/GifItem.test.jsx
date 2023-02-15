@@ -1,7 +1,8 @@
 import { render,screen } from "@testing-library/react";
 import { GifItem } from "../../src/components/GifItem";
 
-describe ('Probando GifItem',()=>{
+describe ('Probando <GifItem/>',()=>{
+    
     const title = 'dragon';
     const url = 'https://uone-punch.com/';
 
